@@ -2,6 +2,10 @@
 
 Сайт портфолио, где показы все мои проекты.
 
+## :globe_with_meridians: Где посмотреть
+
+> [Portfolio](https://georgesergeev.ru/)
+
 ## :clipboard: Лицензия
 
 MIT
@@ -41,6 +45,4 @@ npm install
 npm run dev
 ```
 
-<!-- 12 -->
-
-<!-- 123 -->
+<!-- 11111 -->
