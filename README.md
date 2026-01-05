@@ -4,6 +4,8 @@
 
 ## :clipboard: Лицензия
 
+MIT
+
 ## Live Demo
 
 https://your-domain.com
@@ -40,4 +42,5 @@ npm run dev
 ```
 
 <!-- 12 -->
+
 <!--  -->
