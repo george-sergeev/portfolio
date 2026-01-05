@@ -1,6 +1,8 @@
 # Portfolio Website
 
-Personal portfolio website showcasing my projects, skills, and experience.
+Сайт портфолио, где показы все мои проекты.
+
+## :clipboard: Лицензия
 
 ## Live Demo
 
@@ -37,4 +39,4 @@ npm install
 npm run dev
 ```
 
-<!-- 1 -->
+<!-- 12 -->
