@@ -8,11 +8,11 @@
 		"type": "big",
 		"links": {
 			"live": "https://georgesergeev.ru/",
-			"github": "https://github.com/george-sergeev"
+			"github": "https://github.com/george-sergeev/portfolio/tree/main"
 		}
 	},
 	{
-		"id": "4faiazy3ullox15m",
+		"id": "7kq9mxe2vrpnc48t",
 		"name": "Шпаргалка для оформления CSS",
 		"description": "Удобная шпаргалка для самого себя, как лаконично оформлять CSS",
 		"technology": ["Markdown"],
