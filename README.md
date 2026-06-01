@@ -4,7 +4,7 @@
 
 ## Сайт
 
-🔗 https://georgesergeev.ru/
+https://georgesergeev.ru/
 
 ![Превью сайта](https://raw.githubusercontent.com/george-sergeev/portfolio/main/public/images/projects/portfolio-project.png)
 
