@@ -1,0 +1,35 @@
+.projects__inner {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 16px;
+	margin-bottom: 30px;
+}
+
+.projects__link {
+	color: var(--color-white);
+	text-decoration: none;
+	transition: 0.3s ease;
+}
+.projects__link:hover {
+	color: var(--color-primary);
+}
+
+@media (max-width: 1280px) {
+	.projects__inner {
+		gap: 14px;
+	}
+}
+
+@media (max-width: 1024px) {
+	.projects__inner {
+		grid-template-columns: repeat(2, 1fr);
+		gap: 12px;
+	}
+}
+
+@media (max-width: 640px) {
+	.projects__inner {
+		grid-template-columns: repeat(1, 1fr);
+		gap: 10px;
+	}
+}

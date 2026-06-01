@@ -1,0 +1,31 @@
+.skill-block {
+	width: 100%;
+	border: 1px solid var(--color-gray);
+	text-align: center;
+	transition:
+		transform 0.4s ease,
+		box-shadow 0.4s ease,
+		border-color 0.4s ease;
+}
+.skill-block:hover {
+	border-color: transparent;
+	box-shadow: 0 0 0 1px var(--color-primary);
+	transform: rotate(5deg);
+}
+.skill-block:hover .skill-block__title {
+	border-bottom-color: var(--color-primary);
+}
+
+.skill-block__title {
+	padding: 8px;
+	font-weight: 600;
+	color: var(--color-white);
+	border-bottom: 1px solid var(--color-gray);
+}
+
+.skill-block__list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+	padding: 8px;
+}

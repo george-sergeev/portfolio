@@ -1,0 +1,8 @@
+.raccoon-icon {
+	color: var(--color-gray);
+	transition: 0.3s ease;
+}
+.raccoon-icon:hover,
+.raccoon-icon:active {
+	color: var(--color-primary);
+}

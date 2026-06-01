@@ -1,0 +1,32 @@
+.header-menu__list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 32px;
+}
+
+.header-menu__link {
+	color: var(--color-gray);
+	text-decoration: none;
+	transition: color 0.3s ease;
+}
+
+.header-menu__link--active {
+	font-weight: 600;
+	color: var(--color-white);
+}
+.header-menu__link::before {
+	content: '#';
+	color: var(--color-primary);
+	font-weight: 400;
+}
+.header-menu__link:hover,
+.header-menu__link:focus {
+	font-weight: 500;
+	color: var(--color-white);
+}
+
+@media (max-width: 768px) {
+	.header-menu {
+		display: none;
+	}
+}

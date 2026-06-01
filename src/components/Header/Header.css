@@ -1,0 +1,34 @@
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 100;
+	margin-bottom: 60px;
+	background: var(--color-background);
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+	box-shadow: none;
+	transition: 0.3s ease;
+}
+
+.header__container {
+	display: flex;
+	position: relative;
+	z-index: 2;
+	align-items: center;
+	justify-content: space-between;
+	max-width: 1500px;
+	margin: 0 auto;
+	padding: 32px 100px 12px;
+}
+
+@media (max-width: 1024px) {
+	body {
+		font-size: 12px;
+	}
+
+	.header__container {
+		padding: 32px 10px 8px;
+	}
+}

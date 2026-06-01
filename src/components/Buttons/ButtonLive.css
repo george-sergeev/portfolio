@@ -1,0 +1,13 @@
+.button-live {
+	padding: 6px 16px;
+	font-weight: 500;
+	color: var(--color-white);
+	text-decoration: none;
+	border: 1px solid var(--color-primary);
+	transition: 0.3s ease;
+}
+
+.button-live:hover,
+.button-live:focus {
+	background-color: var(--color-primary-ad);
+}

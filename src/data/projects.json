@@ -1,0 +1,25 @@
+[
+	{
+		"id": "4faiazy3ullox15m",
+		"name": "Портфолио",
+		"description": "Данный сайт портфолио",
+		"technology": ["HTML", "CSS", "React"],
+		"image": "/images/projects/portfolio-project.png",
+		"type": "big",
+		"links": {
+			"live": "https://georgesergeev.ru/",
+			"github": "https://github.com/george-sergeev"
+		}
+	},
+	{
+		"id": "4faiazy3ullox15m",
+		"name": "Шпаргалка для оформления CSS",
+		"description": "Удобная шпаргалка для самого себя, как лаконично оформлять CSS",
+		"technology": ["Markdown"],
+		"image": "",
+		"type": "small",
+		"links": {
+			"github": "https://github.com/george-sergeev"
+		}
+	}
+]

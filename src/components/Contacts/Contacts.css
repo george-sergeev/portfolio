@@ -1,0 +1,28 @@
+.contacts__inner {
+	display: flex;
+	flex-wrap: no-wrap;
+	justify-content: space-between;
+	gap: 20px;
+}
+
+.contacts__description {
+	max-width: 500;
+	font-weight: 500;
+}
+
+@media (max-width: 1280px) {
+	.contacts__inner {
+		gap: 30px;
+	}
+}
+
+@media (max-width: 768px) {
+	.contacts__inner {
+		flex-wrap: wrap;
+		gap: 20px;
+	}
+
+	.contacts__description {
+		margin: 0 auto;
+	}
+}

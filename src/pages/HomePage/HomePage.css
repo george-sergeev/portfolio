@@ -1,0 +1,17 @@
+.home-page__container {
+	display: flex;
+	flex-direction: column;
+	gap: 80px;
+}
+
+@media (max-width: 1280px) {
+	.home-page__container {
+		gap: 70px;
+	}
+}
+
+@media (max-width: 1024px) {
+	.home-page__container {
+		gap: 60px;
+	}
+}

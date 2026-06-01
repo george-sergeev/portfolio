@@ -1,0 +1,13 @@
+.button-gitHub {
+	padding: 6px 16px;
+	font-weight: 500;
+	color: var(--color-gray);
+	text-decoration: none;
+	border: 1px solid var(--color-gray);
+	transition: 0.3s ease;
+}
+
+.button-gitHub:hover,
+.button-gitHub:focus {
+	background-color: var(--color-gray-ad);
+}

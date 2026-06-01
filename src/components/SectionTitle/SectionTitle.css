@@ -1,0 +1,55 @@
+.section-title {
+	position: relative;
+	display: inline-block;
+	margin-bottom: 50px;
+	font-weight: 500;
+	font-size: 36px;
+	color: var(--color-white);
+}
+
+.section-title::before {
+	content: '#';
+	color: var(--color-primary);
+}
+
+.section-title::after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 100%;
+	margin-left: 16px;
+	width: 25vh;
+	height: 1px;
+	background-color: var(--color-primary);
+}
+
+@media (max-width: 1280px) {
+	.section-title {
+		font-size: 31px;
+	}
+}
+
+@media (max-width: 1024px) {
+	.section-title {
+		margin-bottom: 40px;
+		font-size: 27px;
+	}
+}
+
+@media (max-width: 768px) {
+	.section-title {
+		margin-bottom: 30px;
+		font-size: 27px;
+	}
+}
+
+/* !Точно ли тут уменьшать линию */
+@media (max-width: 600px) {
+	.section-title {
+		margin-bottom: 20px;
+	}
+
+	.section-title::after {
+		width: 10vh;
+	}
+}

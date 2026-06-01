@@ -1,0 +1,19 @@
+.burger-menu-media {
+	display: flex;
+	gap: 8px;
+	max-width: 208px;
+	margin: 0 auto;
+}
+
+.burger-menu-media__item {
+	width: 64px;
+	height: 64px;
+}
+
+.burger-menu-media__link {
+	color: var(--color-gray);
+	transition: 0.3s ease;
+}
+.burger-menu-media__link:active {
+	color: var(--color-white);
+}
